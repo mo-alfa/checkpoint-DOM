@@ -1,0 +1,322 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    
+    align-items: center;
+    
+}
+
+
+#wp1{
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 380px;
+    margin-top: 05px;
+    
+}
+
+#wp2{
+    background-color: aliceblue;
+    border-radius: 5px solid;
+    border-width: 2px;
+
+
+}
+
+/*.container{
+    border-top: 1px solid rgba(0, 0, 0, 2);
+
+}*/
+
+
+
+img{
+    height: 200px;
+    width: 300px;
+    align-items: center;
+
+}
+.img3{
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+
+.elements{
+    justify-content: space-around;
+    display: flex;
+    margin: 10px;
+    margin-left: 25px;
+    margin-top: 35px;
+    border-top: 1px solid rgba(0, 0, 0, 2);
+
+} 
+
+.numbers{
+    height: 60px;
+    min-width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    border-radius: 12px;
+    
+    
+    
+}
+
+.numbers span{
+    height: 100%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: -15px;
+    color: #4fc8b8
+}
+.numbers .num{
+    font-size: 40px;
+    height: 50px;
+
+}
+.numbers span.num{
+    min-width: 30px;
+    min-height: 20px;
+    margin-top: 5px;
+    border-right: 0.5px solid  rgba(0, 0, 0.2);
+    border-left: 0.5px solid  rgba(0, 0, 0.2);
+    
+}
+
+
+/* Header */
+
+header{
+    display: flex;
+    background-color: rgb(238, 248, 249);
+   
+    
+
+
+}
+.mainpro{
+    margin-top: 25px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.btn-like-dlike{
+    margin-left: 15px;
+
+}
+
+.like-btn .fa {
+    margin-top: -37px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+#col2{
+    display: flex;
+    margin-left: 290px;
+    margin-top: -303px;
+
+
+
+    
+}
+
+#col3{
+    display: flex;
+    margin-left: 570px;
+    margin-top: -371px;
+
+
+    
+}
+
+#col4{
+    display: flex;
+    margin-left: 850px;
+    margin-top: -360px;
+
+    
+}
+
+
+
+
+.h1navname{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(11, 52, 41);
+    margin-left: 30px;
+}
+
+span{
+    color: rgb(14, 243, 6);
+}
+header .navname{
+   
+  
+    
+
+}
+
+header .navname ul{
+    float: right;
+    margin-left: 815px;
+    margin-top: -30px;
+    
+    
+
+    
+}
+
+header .navname ul li{
+    list-style: none;
+    float: left;
+    margin-left: 13px;
+
+
+}
+
+header .navname ul li a{
+    color: rgb(55, 54, 54);
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+header .navname ul li a:hover{
+    color: aquamarine;
+
+
+}
+
+#col2{
+
+    border-radius: 5px;
+    margin-bottom: 10px ;
+} 
+
+.card-body{
+    margin-top: 40px;
+    color: rgb(47, 47, 47);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.card-body h5{
+    text-align: center;
+}
+
+.numbers span {
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600 bold;
+}
+
+
+#btns{
+    margin-top: 15px;
+}
+
+button{
+    height: 75px;
+    width: 95px;
+
+    align-items: center;
+
+
+
+
+}
+button span .minus{
+    text-align: center;
+    align-items: center;
+    margin-top: -60px;
+
+}
+.btn-moins{
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+
+.btn-plus{
+    justify-content: center;
+
+
+}
+
+
+.qty{
+    margin-left: 30px;
+}
+
+.like-btn{
+    margin-top: 35px;
+    margin-left: 65px;
+    color: blue;
+    height: 60px;
+    width: 60px;
+    background: none;
+    border: none;
+}
+.fa-heart{
+    font-size: 50px;
+}
+
+.amounte{
+    margin-top: 50px;
+    color: brown;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.card-title{
+    float: left;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(11, 52, 41);;
+}
+
+.price{
+    justify-content: center;
+    display: flex;
+    float: right;
+}
+
+.amountes{
+    float: left;
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+    font-weight:bolder;
+    margin-top: 20px;
+    color:rgb(18, 13, 13);
+
+}
